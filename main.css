@@ -1,0 +1,80 @@
+.a1 {
+	font-size: 15px;
+	width: 450px;
+	float: left;
+	margin-left: 150px;
+	margin-top: 60px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: blueviolet;
+}
+
+.a2 {
+	font-size: 15px;
+	width: 450px;
+	float: right;
+	margin-top: 60px;
+	margin-right: 150px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: blue;
+}
+
+.a3 {
+	font-size: 15px;
+	width: 625px;
+	margin-left: 50%;
+}
+
+.a4 {
+	background-image: url('gabriel-santiago-l1sqXJXBgd0-unsplash.jpg');
+	background-size: contain;
+	background-attachment: fixed;
+	border-width: 2px;
+	border-style: solid;
+	border-color: yellow;
+}
+
+span {
+	font-family: monospace, sans-serif, serif;
+	background-color: #B3EDFF;
+}
+.extra span {
+	background-color: inherit;
+}
+.a {
+	text-decoration: underline;
+	font-family: monospace, sans-serif, serif;
+	color: #006786;
+	font-size: 30pt;
+}
+
+.b1 {
+	font-family: monospace;
+	color: #006786;
+	background-color: #B3EDFF;
+}
+.b2 {
+	color: inherit;
+	background-color: inherit;
+}
+h2 {
+	font-family: monospace;
+	color: #006786;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	font-family: monospace;
+	color: gray;
+	opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+	font-family: monospace;
+	color: gray;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+	font-family: monospace;
+	color: gray;
+}
